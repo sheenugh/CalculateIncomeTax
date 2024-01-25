@@ -30,9 +30,7 @@ else:
     
     
 # - Printing the result.
-print("\n")
-print("Therefore, ")
-print("The first income tax is", first_income, " dollars, having 0% rate.")
-print("The next income tax is", second_or_income, " dollars, having 10% rate.")
+print("The first income tax is ", first_income, " dollars, having 0% rate.")
+print("The next income tax is ", second_or_income, " dollars, having 10% rate.")
 print("The third or remaining income tax is", payable_tax, " dollars, having 20% rate.")
 
