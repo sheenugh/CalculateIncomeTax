@@ -23,6 +23,6 @@ else:
     payable_tax = 10000 * 0.1
     payable_tax += (income - 20000) * 0.2
 
-print("The first income is ", first_income)
-print("The next income is ", )
-print("The income tax is", payable_tax, " dollar")
+print("The first income tax is ", first_income, " dollars, having 0% rate.")
+print("The next income tax is ", second_or_income, " dollars, having 10% rate.")
+print("The third or remaining income tax is", payable_tax, " dollars, having 20% rate.")
