@@ -11,7 +11,7 @@ first_income = 10000
 second_or_income = 10000
 income = 45000
 payable_tax = 0 
-print("Given income is ", income)
+print("The given income is ", income)
 
 if income <= 10000:
     payable_tax = 0
