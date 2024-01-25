@@ -11,3 +11,11 @@ print("\n")
 
 if income <= 10000:
     payable_tax = 0
+elif income <= 20000:
+    x = income - 10000
+    payable_tax = x * 0.1
+else:
+    payable_tax = 0
+    payable_tax = 10000 * 0.1
+    payable_tax += (income - 20000) * 0.2
+print(payable_tax)
